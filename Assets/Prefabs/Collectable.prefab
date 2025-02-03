@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 134504188587381265}
   - component: {fileID: 5075797878576590723}
   - component: {fileID: 4654993532941082002}
+  - component: {fileID: 2987394376755212926}
   m_Layer: 0
   m_Name: Collectable
   m_TagString: Untagged
@@ -120,3 +121,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shouldSpin: 1
   spinSpeed: 90
+--- !u!114 &2987394376755212926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109525529963458764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1840800105
+      Data2: 1164219590
+      Data3: -1091619938
+      Data4: 1253267948
+    Path: event:/UI/Okay
+  Event: 
+  EventPlayTrigger: 2
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
